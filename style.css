@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(https://i.imgur.com/8tcxHWh.jpg);
+    background-attachment: fixed;
+}
+
+.calculadora {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(177, 34, 195, 1) 0%, rgba(45, 253, 240, 0.8015581232492998) 100%);
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.calculadora td button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 42px 42px 42px 42px;
+}
+
+#creditos {
+    background-color: chocolate;
+    display: flex;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 15%;
+}
+
+
+#resultado {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    border-radius: 25px;
+   
+}
+
+/*.boton {
+    background-color: powderblue;
+    transition: background-color .5s;
+}
+
+.boton:hover {
+    background-color:  rgba(177, 34, 195, 1);
+  }*/
+
+div {
+    width: 97%;
+    height: 60px;
+    text-align: center;
+    padding: 1em;
+}
+
+.boton {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.2em;
+    background: rgba(177, 34, 195, 1);
+    border: 2px solid;
+    border-color: rgba(177, 34, 195, 1);
+    position: relative;
+    border-radius: 42px 42px 42px 42px;
+}
+
+.boton:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+    border-radius: 42px 42px 42px 42px;
+}
+
+.boton:hover:before {
+    width: 100%;
+}
